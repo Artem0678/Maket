@@ -1,0 +1,182 @@
+@font-face {
+    font-family:"YoungSerif";
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+/*Osnova*/
+body {
+
+    background-color:#f3e5d8;
+    width:auto;
+    font-family: YoungSerif;
+}
+
+#Osnova {
+    width:52%;
+    background-color:#ffff;
+    background-position:center;
+    margin-top:5%;
+    margin-bottom:5%;
+    margin-left:25%;
+    margin-right:25%;
+    border-radius:1em;
+
+
+
+}
+/*Osnova*/
+
+
+
+
+
+
+
+
+
+/*IMG*/
+header{
+
+    width:100%;
+    text-align: center;
+
+}
+
+#omelette{
+
+    width:90%;
+    margin-top: 1em;
+    border-radius:10px;
+
+}
+/*IMG*/
+
+
+
+
+
+
+
+
+/*Base*/
+#base {
+
+    margin-left:5%;
+    color:#121910;
+
+}
+
+h2{
+
+    color:#824731
+
+}
+
+h1 {
+
+    font:900 sans-serif;
+}
+
+hr{
+
+    margin-right:5%;
+
+}
+
+
+
+
+
+/*Preparation*/
+div#Preparation > h3{
+
+    color:#a4748c
+
+}
+
+div#Preparation li::marker{
+
+    color:#a4748c
+
+}
+/*Preparation*/
+
+
+
+
+
+
+
+/*Ingredients*/
+
+div#Ingredients li::marker{
+
+    color:#824731
+}
+
+/*Ingredients*/
+
+
+
+
+
+
+/*Instructions*/
+
+div#Instructions li::marker{
+
+color:#824731
+
+}
+
+/*Instruction*/
+
+
+
+
+
+
+/*Nutrition*/
+
+
+div#Nutrition{
+
+    padding-bottom:5%;
+
+}
+
+div#Nutrition em{
+
+    color: #824731;
+}
+
+div#Nutrition div#tablica p{
+    max-width:75%;
+    display: flex;
+    justify-content:space-between;
+
+}
+
+
+
+/*Nutrition*/
+
+
+
+
+/*Base*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
