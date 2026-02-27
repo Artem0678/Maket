@@ -1,0 +1,46 @@
+*, *::before, *::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    display:grid;
+    place-items: center;
+    min-height: 100vh;
+
+    background-color: lightsteelblue;
+    font-family: sans-serif;
+    padding:20px;
+    font-size:clamp(11px,2vw,20px);
+
+}
+
+.QR-CARD {
+
+    background-color:white;
+    width: clamp(320px, 30vw, 600px);
+    padding:16px 16px 40px 16px;
+    border-radius:20px;
+    text-align:center;
+
+}
+
+.QR-CARD img {
+
+    width:100%;
+    border-radius:20px;
+    margin-bottom:24px;
+
+}
+
+.QR-CARD p {
+
+    padding-top:15px;
+    color:grey;
+    font-size:clamp(11px,2vw,50px);
+
+}
