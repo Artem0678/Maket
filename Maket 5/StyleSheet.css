@@ -1,0 +1,201 @@
+:root {
+
+    --clr-background:#e6edff;
+    --clr-result-background:#6441fd;
+    --clr-continue-background:#303b59;
+    --clr-your-result:#d1c4ff;
+    --clr-result-text:#a69fff
+}
+
+@font-face {
+
+    font-family:HankenGrotesk;
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
+
+}
+
+*, *:before, *:after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color:var(--clr-background);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:HankenGrotesk,sans-serif;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction:row;
+    background-color: white;
+    border-radius:20px;
+    width:clamp(550px,30vh,700px);
+
+}
+
+.result-card {
+
+    width:50%;
+    background-color:var(--clr-result-background);
+    border-radius:15px;
+    padding:24px;
+    text-align: center;
+
+}
+
+.result-card h1 {
+
+    color:var(--clr-result-text);
+    margin-bottom:20px;
+    font-size:18px;
+
+}
+
+.result-card__score {
+
+
+    margin:4rem 0 4rem 0;
+
+}
+
+.result-card__score-value {
+
+    color:white;
+    font-size:40px;
+    font-weight:900;
+
+}
+
+.result-card__score-total {
+
+    color:var(--clr-result-text);
+
+}
+
+.result-card__feedback {
+
+    margin-bottom:12px;
+
+}
+
+.result-card__feedback-heading {
+
+    margin-bottom:12px;
+    font-size:24px;
+    color:white;
+
+}
+
+.result-card__feedback-text {
+
+    color:var(--clr-result-text);
+
+}
+
+
+
+
+.metrick-card {
+
+    display:flex;
+    flex-direction:column;
+    width:50%;
+    padding:24px;
+    gap:3%;
+    height:10em;
+    font-weight:bolder;
+
+}
+
+.metrick-card h1 {
+
+    font-size:20px;
+    margin-bottom:20px;
+
+}
+
+.metrick-card__reaction {
+
+    background-color:#fff6f7;
+    border-radius:1em;
+    padding:1em;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.metrick-card__reaction section {
+
+    display:flex;
+
+}
+
+
+.metrick-card__memory {
+
+    background-color:#fffaf4;
+    border-radius:1em;
+    padding:1em;
+    display:flex;
+    justify-content:space-between;
+}
+
+.metrick-card__memory section {
+
+    display:flex;
+
+}
+
+
+.metrick-card__verbal {
+
+    background-color:#f2fdf9;
+    border-radius:1em;
+    padding:1em;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+.metrick-card__verbal section {
+
+    display:flex;
+
+}
+
+.metrick-card__visual {
+
+    background-color:#f4f4fe;
+    border-radius:1em;
+    padding:1em;
+    display:flex;
+    justify-content:space-between;
+}
+
+.metrick-card__visual section {
+
+    display:flex;
+
+}
+
+
+.metrick-card__continue {
+
+    margin-top:1em;
+    text-align:center;
+    background-color: #303b59;
+    color:white;
+    padding:12px;
+    border-radius:24px;
+
+}
