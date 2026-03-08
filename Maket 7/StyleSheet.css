@@ -1,0 +1,147 @@
+:root {
+
+    --clr-body-background:#0d1a2d;
+    --clr-card-background:#15273f;
+    --clr-card-title-text:white;
+    --clr-card-description-text:#859cbc;
+    --clr-balance-value-text:#2ce2e6;
+    --clr-balance-change-text:#859cbc;
+    --clr-hr:#22344c;
+
+}
+
+*,*::after,*::before {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+
+    background-color:var(--clr-body-background);
+    min-height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+
+    background-color: var(--clr-card-background);
+    border-radius:12px;
+
+    display:flex;
+    flex-direction: column;
+
+    padding-top:20px;
+
+    width:320px;
+
+
+
+}
+
+.card__img-container {
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__img {
+
+    width:280px;
+    height:280px;
+    border-radius:12px;
+
+}
+
+.card__content {
+
+    margin-left:20px;
+    margin-right:10px;
+
+}
+
+.card__title {
+
+    color: var(--clr-card-title-text);
+    font-size: 20px;
+    font-weight:900;
+    margin:15px 0;
+
+}
+
+.card__description {
+
+    color:var(--clr-card-description-text);
+
+}
+
+
+.card__balance {
+
+    display:flex;
+    justify-content:space-between;
+    margin:16px 16px 16px 0;
+
+}
+
+
+.balance__value {
+
+    color:var(--clr-balance-value-text);
+
+}
+
+.balance__value-change {
+
+    color:var(--clr-balance-change-text);
+
+}
+
+hr{
+
+    color:var(--clr-hr);
+
+}
+
+.card__author-image {
+
+    width:24px;
+    height:24px;
+
+}
+
+.card__author-info {
+
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    gap:8px;
+    height:60px;
+
+}
+
+.balance__date-section {
+
+    display:flex;
+    align-self: center;
+    gap:6px;
+
+}
+
+.balance__value-section {
+
+    display:flex;
+    gap:8px;
+    align-self: center;
+
+}
