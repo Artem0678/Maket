@@ -1,0 +1,188 @@
+:root {
+
+    --clr-body-background:#e0e8ff;
+    --clr-card-background:white;
+    --clr-card-description:#92929e;
+    --clr-card-title:#1f2c4f;
+    --clr-value-background:#f8f9fe;
+    --clr-value-plan:#1f2c4f;
+    --clr-value-cost:#92929e;
+    --clr-payment-button:#382ae1;
+    --clr-payment-text:white;
+    --clr-cancel-text:#969bae;
+
+}
+
+@font-face {
+
+    font-family: "Red Hat Display";
+    src: url("RedHatDisplay-VariableFont_wght.ttf") format("opentype");
+
+}
+
+*, *:before, *:after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-image:url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-size:100% auto;
+    background-attachment:fixed;
+    background-color:var(--clr-body-background);
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height:100vh;
+
+    font-family:"Red Hat Display",sans-serif;
+
+}
+
+
+.card__image {
+
+    width:340px;
+    border-radius:12px 12px 0 0;
+
+}
+
+
+.card {
+
+    background-color:var(--clr-card-background);
+    width:340px;
+    border-radius:12px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+
+    padding-bottom:30px;
+}
+
+.card__title {
+
+    margin-top:30px;
+    margin-bottom:10px;
+
+    font-weight:900;
+    font-size:20px;
+
+    color:var(--clr-card-title);
+
+}
+
+.card__description {
+
+    color:var(--clr-card-description);
+
+}
+
+.card__value-container {
+
+    margin:10px 0;
+    padding:12px;
+
+    width:80%;
+
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+
+    background-color:var(--clr-value-background);
+    border-radius:10px;
+
+}
+
+.card__value-container section {
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 6px;
+    gap:12px;
+}
+
+
+
+.card__value-image {
+
+    width:32px;
+
+}
+
+.card__value-content-container {
+
+    display:flex;
+    flex-direction: column;
+
+    font-size:14px;
+
+}
+
+.card__value-plan {
+
+    color:var(--clr-value-plan);
+    font-weight:900;
+
+}
+
+.card__value-cost {
+
+    color:var(--clr-value-cost);
+
+}
+
+.card__change-button {
+
+    font-size:14px;
+
+}
+
+.card__payment-button {
+
+    background-color:var(--clr-payment-button);
+    color:var(--clr-payment-text);
+
+    border-style:hidden;
+    border-radius:10px;
+
+    width:280px;
+    height:40px;
+
+    box-shadow: black 0px 6px 20px -10px;
+
+    margin:20px 0;
+
+    cursor: pointer;
+    transition: background-color 0.3s ease, opacity 0.3s ease, transform 0.1s ease;
+
+}
+
+.card__payment-button:hover {
+    opacity: 0.8;
+
+}
+
+.card__payment-button:active {
+    transform: scale(0.98);
+}
+
+.card__cancel-button {
+
+    color:var(--clr-cancel-text);
+    text-decoration:none;
+
+}
+
+
