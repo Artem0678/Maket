@@ -1,0 +1,116 @@
+*, *:before, *:after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color:#f2f2f2;
+    min-height:100vh;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color:white;
+    font-family:Verdana, Helvetica, sans-serif;
+    line-height:1.5;
+}
+
+.card {
+
+    display: flex;
+    width:810px;
+    height:450px;
+
+
+}
+
+.card__sedans {
+
+    background-color:#e28525;
+    padding:0 40px;
+    border-radius:10px 0 0 10px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+
+.card__suvs {
+
+    background-color:#016972;
+    padding:0 40px;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+
+.card__luxury {
+
+    background-color:#00403f;
+    padding: 0 40px;
+    border-radius:0 10px 10px 0;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+
+}
+
+.sedans__title {
+
+    margin:10px 0;
+
+}
+
+.suvs__title {
+
+    margin:10px 0;
+
+}
+
+.luxury__title {
+
+    margin:10px 0;
+
+}
+
+img {
+
+    width:60px
+
+}
+
+.sedans__button {
+
+    border:none;
+    border-radius:20px;
+    height:40px;
+    color:#e28525;
+
+}
+
+.suvs__button {
+
+    border:none;
+    border-radius:20px;
+    height:40px;
+    color:#016972;
+
+}
+
+.luxury__button {
+
+    border:none;
+    border-radius:20px;
+    height:40px;
+    color:#00403f;
+
+}
