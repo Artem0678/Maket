@@ -1,0 +1,123 @@
+*,*::before,*::after {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background-color:#1ba1ad;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Verdana', sans-serif;
+
+}
+
+.card {
+
+    min-width:375px;
+    height:375px;
+
+    background-color: white;
+    border-radius:10px;
+    overflow: hidden;
+
+
+}
+
+
+.card__image-container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card__background-image{
+
+    display:block;
+    width:100%;
+    height:100%;
+
+}
+
+.card__avatar-image {
+
+    position:relative;
+    border-radius: 50%;
+    bottom:50px;
+    border:5px solid white;
+
+}
+
+.card__content {
+
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:10px;
+
+}
+
+.card__name {
+
+    margin-top:-35px;
+    font-weight:900;
+
+}
+
+.card__age {
+
+    color:#e5e5e7;
+    font-weight:500;
+
+}
+
+.card__city {
+
+    color:#e5e5e7;
+    font-size:15px;
+    margin-top:-10px;
+
+}
+
+.card__dividing-line {
+
+    color:#e5e5e7;
+    margin:15px 0;
+
+}
+
+.card__info {
+
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    gap:20px;
+
+}
+
+.card__followers,.card__likes,.card__photos {
+
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+    font-weight:900;
+    font-size:18px;
+}
+
+.card__followers span,.card__likes span,.card__photos span{
+
+    color:#e5e5e7;
+    font-size:15px;
+    font-weight:500;
+
+}
